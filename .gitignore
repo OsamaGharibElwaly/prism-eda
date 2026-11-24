@@ -1,0 +1,23 @@
+# Node
+web/node_modules/
+web/.vite/
+*.tsbuildinfo
+
+# Go build output
+*.exe
+*.dll
+*.so
+*.dylib
+/prismeda
+/api
+
+# Environment / local config
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
